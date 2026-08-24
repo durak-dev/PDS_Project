@@ -25,10 +25,4 @@ To build this framework, the project focuses on three technical pillars:
 * **Geospatial & Spatial Analysis:** `geopandas`, `folium`, `shapely`
 * **Data Visualization:** `matplotlib`, `seaborn`, `plotly`
 * **Environment:** Jupyter Notebook (Conda kernel)
-
 ---
-
-## Getting Started
-
-### Prerequisites
-Make sure you have Python 3.10+ and `pip` installed on your machine.
