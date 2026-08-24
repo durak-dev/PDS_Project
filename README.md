@@ -1,43 +1,34 @@
-# Programming for Data Science Project:
-##  _Where Should I Live?_
+---
+# Where Should I Live?
 
-In the wake of increasing mobility across Europe, fueled by remote work,
-international education, and shifting social and economic priorities, there has been
-growing demand for tools that help citizens make better-informed decisions about
-where to live. Recognizing this, the European Commission’s Directorate-General for
-Employment, Social Affairs and Inclusion (DG EMPL) has launched a new initiative
-focused on improving access to comparative information about living conditions,
-opportunities, and quality of life across member states.
+## Project Overview
 
-To support this initiative, a data science task force was assembled, comprised of
-researchers and developers across Europe. You were selected as part of this effort
-to design a tool that translates complex country-level data into clear, actionable
-insights for everyday people: students seeking affordable education, professionals
-looking for better work-life balance, retirees interested in safety and healthcare, and
-more.
+In an era of unprecedented mobility across Europe—fueled by remote work, international education, and shifting socio-economic priorities—citizens increasingly need reliable tools to make informed relocation decisions. Inspired by the European Commission’s (DG EMPL) initiative to improve access to comparative living conditions, this project bridges the gap between complex, country-level statistics and actionable insights for everyday people.
 
-Your project, "Where Should I Live", aims to simplify this decision-making process
-by analyzing key characteristics of European countries, such as cost of living, safety,
-and employment. Through exploratory analysis, visualizations, and interpretable
-insights, your goal is to build a framework that empowers users to evaluate which
-countries align best with their personal values and life goals.
+**"Where Should I Live?"** is a data science framework designed to empower individuals—from students seeking affordable education to professionals prioritizing work-life balance and retirees looking for safety, to evaluate which European countries best align with their personal values and life goals.
 
-## _Project Objectives_
-Working in data science goes beyond technical expertise; it demands strong
-critical thinking and problem-solving skills. 
+By analyzing key indicators such as cost of living, safety, and employment opportunities, this project translates raw data into a clear, comparative decision-making guide.
 
-The goals for this project are three-fold:
+## Core Objectives
 
-Data Wrangling and Analysis: In this phase, raw data is transformed into clean,
-structured datasets. You’ll apply fundamental techniques to explore the data and
-extract relevant insights about European countries.
+To build this framework, the project focuses on three technical pillars:
 
-Working with Advanced Topics: Here, you go beyond the basics by integrating
-advanced concepts such as web scraping, geographical data, or other relevant data
-types. This phase reflects the real-world challenges of gathering and handling
-diverse data.
+* **Data Engineering & Exploratory Analysis:** Extracting, cleaning, and structuring raw data to uncover baseline insights and trends regarding European living standards.
+* **Advanced Data Integration:** Augmenting standard datasets with advanced collection techniques, utilizing web scraping and geospatial data processing to capture a holistic, real-world view of the European landscape.
+* **Synthesis & Visualization:** Applying statistical analysis and creative visualization techniques to uncover patterns, explore relationships across variables, and ultimately generate an interpretable, user-facing framework for comparative analysis.
 
-Data Science in Action: Finally, you’ll synthesize your work into a coherent
-analysis. Using techniques of your choice, you’ll explore patterns, visualize
-relationships, and generate actionable frameworks and conclusions. This phase is
-open-ended, allowing for creativity, critical thinking, and deeper exploration.
+## Tech Stack
+
+* **Language:** Python 3.10+
+* **Data Processing & Analysis:** `pandas`, `numpy`
+* **Data Collection (Web Scraping):** `beautifulsoup4`, `requests`
+* **Geospatial & Spatial Analysis:** `geopandas`, `folium`, `shapely`
+* **Data Visualization:** `matplotlib`, `seaborn`, `plotly`
+* **Environment:** Jupyter Notebook (Conda kernel)
+
+---
+
+## Getting Started
+
+### Prerequisites
+Make sure you have Python 3.10+ and `pip` installed on your machine.
